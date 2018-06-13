@@ -1,0 +1,16 @@
+{
+  "name": "todomvc-example",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:zle-loves-e2e/todomvc-example.git",
+  "author": "indexmotion <indexmotion@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "zle": "^0.10.4"
+  },
+  "scripts": {
+    "tsc": "./node_modules/.bin/tsc",
+    "tsc:auto": "yarn run tsc --watch",
+    "test": "yarn run tsc && ./node_modules/.bin/mocha"
+  }
+}

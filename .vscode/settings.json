@@ -1,0 +1,24 @@
+{
+  "editor.tabSize": 2,
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    "**/*.js": {
+      "when": "$(basename).ts"
+    },
+    "**/**.js": {
+      "when": "$(basename).tsx"
+    },
+    "**/*.d.ts": {
+      "when": "$(basename).ts"
+    },
+    "**/*.js.map": true,
+    "**/*.jsx.map": true
+  },
+  "editor.formatOnSave": true,
+  "prettier.tabWidth": 2,
+  "prettier.printWidth": 79
+}

@@ -6,11 +6,19 @@
   "author": "indexmotion <indexmotion@gmail.com>",
   "license": "MIT",
   "dependencies": {
+    "gm": "^1.23.1",
+    "node-tesseract": "^0.2.7",
     "zle": "^0.10.4"
   },
   "scripts": {
     "tsc": "./node_modules/.bin/tsc",
     "tsc:auto": "yarn run tsc --watch",
     "test": "yarn run tsc && ./node_modules/.bin/mocha"
+  },
+  "devDependencies": {
+    "jest": "^23.4.1",
+    "jsdom": "11.11.0",
+    "jsdom-global": "3.0.2",
+    "typescript": "^2.9.2"
   }
 }

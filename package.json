@@ -1,11 +1,12 @@
 {
-  "name": "todomvc-example",
+  "name": "omp-example",
   "version": "1.0.0",
   "main": "index.js",
-  "repository": "git@github.com:zle-loves-e2e/todomvc-example.git",
-  "author": "indexmotion <indexmotion@gmail.com>",
+  "repository": "git@github.com:liupeng110112/e2e-demo.git",
+  "author": "liupeng <liupeng110112@gmail.com>",
   "license": "MIT",
   "dependencies": {
+    "base64-to-image": "^1.0.2",
     "gm": "^1.23.1",
     "node-tesseract": "^0.2.7",
     "zle": "^0.10.4"

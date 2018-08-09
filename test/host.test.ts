@@ -1,8 +1,11 @@
-import * as assert from "assert";
-import { context } from "zle";
-import Host from "../page/App";
+import * as assert from "assert"
+import { context } from "zle"
+import Host from "../page/App"
+import Login from "../page/Login"
 
 test("添加一个待办事项", async () => {
+  const ompLogin = await context.waitFor(Login)
+  await ompLogin.login('admin', 'Omp123!').$done()
   const host = await context.waitFor(Host)
   await host.openModal().hostSearch('10.1', async (searchHostList) => {
     assert.equal(searchHostList.length, 1)

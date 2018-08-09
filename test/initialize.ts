@@ -9,7 +9,7 @@ teardown(async () => {
 
 /** ZLE框架提供的初始化方法 */
 initialize({
-  slowMo: 250,
+  // slowMo: 150,
   executablePath: process.env.ZLE_EXECUTABLE_PATH, // 通过环境变量指定Chromium浏览器的位置
   headless: false, // 启动浏览器测试时，需要图形化界面，方便观看调试
   args: ["--window-size=1920,1080"] // 指定浏览器窗口大小
